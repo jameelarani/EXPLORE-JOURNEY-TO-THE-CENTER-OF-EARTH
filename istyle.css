@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: white;
+    text-decoration:underline;
+    font-weight: bold;
+    
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: azure;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-links li{
+    margin: 0 30px;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:url(./img1.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    margin: 150px;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+    color: #1C0A00;
+}
+.header-content h1{
+    font-size: 4vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #1C0A00;
+}
+.ctn{
+    padding: 8px 15px;
+    background: white;
+    border-radius: 30px;
+    color: black;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right:30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 3vmin;
+    color: #1C0A00;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px;
+
+}
+h4{
+    font-size: 3vmin;
+    color: black;
+    margin: 20px auto;
+}
+p{
+    color: black;
+    padding: 0px 40px;
+    
+}
+
+.row.col img{
+    width: 80%;
+
+}
+.explore{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./p4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.explore-content p{
+    color:wheat;
+}
+.explore-content h1{
+font-size: 7vmin;
+margin-bottom: 50px;
+
+}
+.explore-content .ctn{
+    margin-top: 40px;
+}
+.cntent-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+    display: flex;
+}
+.tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+
+}
+.image-gallery img {
+max-width: 250px;
+margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color:blue
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: palevioletred;
+    text-align: center;
+}
+.footer p{
+    color: bisque;
+    margin: 20px auto;
+    padding: 20px auto;
+}
+
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links{
+        flex-direction: column;
+        width:100%;
+        height: 100vh;
+        justify-content: center;
+        background: #deb8a3;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        
+    }
+
+    .nav-links li{
+        margin: 30px auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row .col{
+        margin: 20px auto;
+    }
+
+    .col img{
+        max-width: 90%;
+    }
+    .explore-content{
+        width: 100%;
+    }
+    .tours.col{
+        width: 100%;
+    }
+    .image-gallery{
+        justify-content: center;
+        align-items: center;
+    }
+    image-gallery img{
+        width: 90%;
+    }
+    .footer{
+        padding: 10%;
+    }
+
+}
+img{
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.ctn:hover{
+    background: aqua;
+    color: #deb8a3;
+
+}
+    li:hover{
+        color: blue;
+        cursor: pointer;
+    }
+    .footer{
+        padding: 10%;
+    }

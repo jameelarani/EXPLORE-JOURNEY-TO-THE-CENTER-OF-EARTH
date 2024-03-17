@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A TRAVEL CONCEPT</title>
+    <link rel="stylesheet" href="./istyle.css">
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=IBM+Plex+Mono:wght@100&family=Montserrat:wght@100&family=Mukta:wght@300&family=Noto+Serif&display=swap" rel="stylesheet">
+<body>
+    <!-- header section -->
+    <!-- navbar -->
+    <nav class="navbar">
+        <img class="logo" src="./logo.png" width="100" alt="">
+    <ul class="nav-links">
+        <li class="active"><a href="#"></a>HOME</li>
+        <li  class="active"><a href="#"></a>ABOUT US</li>
+        <li  class="active"><a href="#"></a>TOUR</li>
+        <li class="active"><a href="#"></a>EXPLORE</li>
+        <li class="active"><a href=""></a>CONTACT</li>
+    </ul>
+    <img src="./menu.png" alt="" class="menu-btn">
+    </nav> document.queryselector()
+    <!-- header -->
+    <header>
+        <div class="header-content">
+            <h2>JOURNEY TO THE CENTER OF THE EARTH</h2>
+            <h1>ADVENTURE LIFE</h1>
+            <a href="#" class="ctn">EXPLORE!</a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>TAKE A LOOK at THIS</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./p1.jpg" alt="">
+                <h4>COME AND JOIN</h4>
+                <p>A parachute is a device used to slow the motion of an object through an atmosphere by creating drag or, in a ram-air parachute, aerodynamic lift. A major application is to support people, for recreation or as a safety device for aviators, who can exit from an aircraft at height and descend safely to earth.</p>
+            
+            </div>
+            <div class="col">
+                <img src="./p2.jpg" alt="">
+                <h4>COME AND JOIN</h4>
+                <p>A parachute is a device used to slow the motion of an object through an atmosphere by creating drag or, in a ram-air parachute, aerodynamic lift. A major application is to support people, for recreation or as a safety device for aviators, who can exit from an aircraft at height and descend safely to earth.</p>
+                
+            </div>
+            <div class="col">
+                <img src="./P3.jpg" alt="">
+                <h4>COME AND JOIN</h4>
+                <p>A parachute is a device used to slow the motion of an object through an atmosphere by creating drag or, in a ram-air parachute, aerodynamic lift. A major application is to support people, for recreation or as a safety device for aviators, who can exit from an aircraft at height and descend safely to earth.</p>
+                
+            </div>
+        </div>
+        <section class="explore">
+          <div class="explore-content">
+            <h1>EXPLORE NOW</h1>
+            <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur numquam odit iste hic sit, fugit, obcaecati quidem corrupti atque, debitis aut dolore est tenetur fugiat expedita aperiam magnam fuga. Ipsa.</P>
+            <a href="#"  class="ctn" >click</a>
+          </div>
+          
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1>PARAGLIDING FUN ELEMENTS</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quasi eum assumenda obcaecati veritatis a voluptates, aperiam laudantium nam vitae odit necessitatibus ullam delectus animi aut! Corrupti, iusto cumque? Quos.</p>
+                </div>
+                <div class="col image-col ">
+                    <div class="image-gallery">
+                        <img src="./p4.jpg" alt="">
+                        <img src="./p6.jpg" alt="">
+                        <img src="./p8.jpg" alt="">
+                        <img src="./p7.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+          </section>
+
+    </section>
+    <section class="footer">
+        <p>jawahar colony 326 india /ph:999999999/email:jemiaami1202@gnmail.com
+            
+        </p>
+        <p>copyright@jameelarani@2023</p>
+    </section>
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+   
+</body>
+</html>
